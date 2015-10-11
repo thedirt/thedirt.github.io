@@ -3,7 +3,7 @@ About
 This directory has the new landing page for The Dirt, distributed by The
 Duke Chronicle. The new landing page has several objectives:
 
-1. Serve as a clean location to sign up for The Dirt, relatively free of its association with The Chronicle.
+1. Serve as a location to sign up for The Dirt, relatively free of association with The Chronicle.
 2. Provide an aesthetically attractive website to show to potential advertisers in the future.
 
 
@@ -20,10 +20,8 @@ Contact
 -----------------------------------
 Report comments and bugs to:
 
-philip.foo@duke.edu
-516-413-5990
+philip.foo@duke.edu, 516-413-5990
 
 Or alternatively, contact the Duke Chronicle Advertising department at:
 
-advertising@chronicle.duke.edu
-919-684-3811
+advertising@chronicle.duke.edu, 919-684-3811
