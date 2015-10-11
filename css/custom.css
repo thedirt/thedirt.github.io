@@ -1,0 +1,47 @@
+#logo{
+	position: relative;
+	height: 10%;
+	width: 15%;
+	left: 21.5%;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.nav-separator{
+	width: 90%;
+	background-color: black;
+	border: none;
+	height: 2.5px;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+	#logo{
+		position: relative;
+		width: 90%;
+		height: 15%;
+		left: 2.5%;
+		margin-top: 5px;
+		margin-bottom: 0px;
+	}
+
+	.nav-separator{
+		height: 1.5px;
+		width: 95%;
+	}
+}
