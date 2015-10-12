@@ -102,6 +102,7 @@ nav a:hover{
 	font-size: 12px;
 }
 
+/*Small Desktop Screens*/
 @media screen and (max-width: 650px){
 	#logo{
 		position: relative;
@@ -147,4 +148,55 @@ nav a:hover{
 	#footer.nav-separator{
 		display: none;
 	}
+}
+
+
+/*iPhone Display*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2){
+
+  	#logo{
+		position: relative;
+		width: 90%;
+		height: 15%;
+		left: 2.5%;
+		margin-top: 5px;
+		margin-bottom: 0px;
+	}
+
+	.nav-separator{
+		height: 1.5px;
+		width: 95%;
+	}
+
+	li{
+		display: block;
+		width: 100%;
+		margin: 5px;
+		font-size: 16px;
+	}
+
+	#description{
+		position: relative;
+		width: 100%;
+		left: 0;
+		margin-top: 20px;
+	}
+
+	#description h1{
+		font-size: 18px;
+	}
+
+	#description p{
+		font-size: 14px;
+	}
+
+	#mc_embed_signup{
+		width: 95%;
+		margin-bottom: 20px !important;
+	}
+
+	#footer.nav-separator{
+		display: none;
+	}
+
 }
