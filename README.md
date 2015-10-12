@@ -25,3 +25,8 @@ philip.foo@duke.edu, 516-413-5990
 Or alternatively, contact the Duke Chronicle Advertising department at:
 
 advertising@chronicle.duke.edu, 919-684-3811
+
+
+Known Bugs
+------------------------------------
+1. After subscription, "return to our website" button goes to the original dukechronicle.com site.

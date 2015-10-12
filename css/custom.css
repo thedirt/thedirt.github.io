@@ -34,10 +34,12 @@
 #description h1{
 	font-size: 22px;
 	color: #193B87;
+	opacity: 0;
 }
 
 #description p{
 	font-size: 18px;
+	opacity: 0;
 }
 
 nav a{
@@ -66,25 +68,41 @@ li{
 
 nav a:hover{
 	text-shadow: 0 0 0.01em #193B87;
+	color: #193B87;
 }
 
 
 /*SIGNUP BOX*/
 #mc_embed_signup{
+	margin-top: 30px !important;
+	margin-bottom: 50px !important;
 	width: 600px;
-	margin-top: 50px;
 	border: 1px solid black;
 	margin: 0 auto;
 	font-family: "Times New Roman";
+	opacity: 0;
+}
+
+.mc-field-group{
+	margin-top: 10px;
 }
 
 
+/*
+#firstname.mc-field-group, #lastname.mc-field-group{
+	display: none;
+}
+*/
 
 
+/*Footer*/
+#footer p{
+	text-align: center;
+	margin: 0;
+	font-size: 12px;
+}
 
-
-
-@media screen and (max-width: 600px){
+@media screen and (max-width: 650px){
 	#logo{
 		position: relative;
 		width: 90%;
@@ -122,6 +140,11 @@ nav a:hover{
 	}
 
 	#mc_embed_signup{
-		width: 100%;
+		width: 95%;
+		margin-bottom: 20px !important;
+	}
+
+	#footer.nav-separator{
+		display: none;
 	}
 }
