@@ -67,7 +67,7 @@ li{
 }
 
 nav a:hover{
-	text-shadow: 0 0 0.01em #193B87;
+	text-shadow: 0 0 0.05em #193B87;
 	color: #193B87;
 }
 
