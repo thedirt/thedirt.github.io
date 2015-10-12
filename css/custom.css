@@ -81,12 +81,16 @@ nav a:hover{
 	margin: 0 auto;
 	font-family: "Times New Roman";
 	opacity: 0;
+	border-radius: 3px;
 }
 
 .mc-field-group{
 	margin-top: 10px;
 }
 
+input[type=submit]:hover{
+	background: #193B87 !important;
+}
 
 /*
 #firstname.mc-field-group, #lastname.mc-field-group{
@@ -196,7 +200,8 @@ nav a:hover{
 
 	#mc_embed_signup{
 		width: 95%;
-		margin-bottom: 20px !important;
+		margin-bottom: 30px !important;
+		margin-top: 30px !important;
 	}
 
 	#footer.nav-separator{
