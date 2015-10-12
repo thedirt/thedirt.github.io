@@ -176,7 +176,7 @@ nav a:hover{
 		display: block;
 		width: 100%;
 		margin: 5px;
-		font-size: 150%;
+		font-size: 200%;
 	}
 
 	#description{
@@ -187,11 +187,11 @@ nav a:hover{
 	}
 
 	#description h1{
-		font-size: 250%;
+		font-size: 300%;
 	}
 
 	#description p{
-		font-size: 150%;
+		font-size: 200%;
 	}
 
 	#mc_embed_signup{
