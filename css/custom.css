@@ -208,4 +208,8 @@ input[type=submit]:hover{
 		display: none;
 	}
 
+	input{
+		max-width: 100%;
+	}
+
 }
