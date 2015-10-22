@@ -13,6 +13,7 @@
 	border: none;
 	height: 2.5px;
 	color: black;
+	margin-bottom: 0;
 }
 
 #wrapper{
@@ -97,6 +98,29 @@ input[type=submit]:hover{
 	display: none;
 }
 */
+
+table{
+	margin: auto;
+	/*border: 1px solid black;*/
+	margin-top: 5px;
+	margin-bottom: 3px;
+}
+
+td{
+	text-align: center;
+	/*border: 1px solid red;*/
+}
+
+td p{
+	margin: 0;
+	color: gray;
+}
+
+td img{
+	height: 45%; width: 45%;
+}
+
+
 
 
 /*Footer*/
