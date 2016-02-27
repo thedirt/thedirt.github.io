@@ -16,10 +16,14 @@
 	margin-bottom: 0;
 }
 
+html: {
+	overflow: scroll;
+}
+
 #wrapper{
 	position: relative;
 	width: 90%;
-	left: 5%
+	left: 5%;
 }
 
 #description{

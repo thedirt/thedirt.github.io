@@ -10,7 +10,7 @@
 html, body: {
 	height: 100% !important;
 	margin: 0;
-	overflow-y: scroll;
+	overflow: scroll;
 }
 
 .nav-separator{
@@ -23,7 +23,7 @@ html, body: {
 }
 
  #wrapper{
-	position: fixed;
+	position: relative;
 	width: 90%;
 	left: 5%;
 	/*border: 1px solid red;*/
@@ -31,14 +31,15 @@ html, body: {
 }
 
 #description{
-	height: 60%;
+	height: 55%;
 	position: relative;
 	width: 70%;
 	/*text-align: center;*/
 	/*border: 1px solid black;*/
 	left: 15%;
-	margin-top: 10%;
+	margin-top: 5%;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	margin-bottom: 1%;
 }
 
 #description h1{
@@ -160,6 +161,8 @@ td img{
 	margin: 0;
 	font-size: 12px;
 	font-family: Times;
+	height: 10%;
+
 }
 
 #hr-footer{
