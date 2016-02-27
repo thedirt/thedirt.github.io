@@ -122,11 +122,18 @@ td img{
 }
 
 /*contact page*/
-.addresstext p{
-	margin: 0 !important;
-	padding: 0 !important;
+.address-text{
 	text-align: center;
+	margin: 0!important;
+	padding: 0 !important;
 }
+
+.contact-text{
+	text-align: center;
+	margin-bottom: 0 !important; 
+	padding-bottom: 0 !important;
+}
+
 
 
 
