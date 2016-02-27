@@ -121,6 +121,12 @@ td img{
 	height: 45%; width: 45%;
 }
 
+/*contact page*/
+.addresstext p{
+	margin: 0 !important;
+	padding: 0 !important;
+	text-align: center;
+}
 
 
 
